@@ -11,8 +11,8 @@ export function useGetAccounts() {
         throw new Error("Error fetching accounts")
       }
 
-      const {accounts} = await response.json();
-      return accounts;
+      const {data} = await response.json();
+      return data;
     }
   })
   return query;
