@@ -15,6 +15,13 @@
       "when": 1766709681830,
       "tag": "0001_quiet_mandrill",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1766834317028,
+      "tag": "0002_luxuriant_anthem",
+      "breakpoints": true
     }
   ]
 }
