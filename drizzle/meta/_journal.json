@@ -22,6 +22,13 @@
       "when": 1766834317028,
       "tag": "0002_luxuriant_anthem",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1767100888469,
+      "tag": "0003_mushy_miek",
+      "breakpoints": true
     }
   ]
 }
