@@ -90,7 +90,7 @@ export const DateFilter = () => {
             <Button
               onClick={onReset}
               disabled={!date?.from || !date?.to}
-              className="w-full"
+              className=""
               variant="outline"
             >
               Reset
@@ -100,7 +100,7 @@ export const DateFilter = () => {
             <Button
               onClick={() => pushToUrl(date)}
               disabled={!date?.from || !date?.to}
-              className="w-full"
+              className=""
             >
               Apply
             </Button>
