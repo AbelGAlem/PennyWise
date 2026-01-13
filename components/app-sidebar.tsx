@@ -19,11 +19,11 @@ import { ClerkLoaded, ClerkLoading, UserButton, useUser } from "@clerk/nextjs"
 import HeaderLogo from "@/components/header-logo"
 
 const routes = [
-  { href: "/", label: "Overview", icon: LayoutDashboard },
-  { href: "/transactions", label: "Transactions", icon: ArrowUpDown },
-  { href: "/accounts", label: "Accounts", icon: Wallet },
-  { href: "/categories", label: "Categories", icon: Tags },
-  { href: "/settings", label: "Settings", icon: Settings },
+  { href: "/dashboard", label: "Overview", icon: LayoutDashboard },
+  { href: "/dashboard/transactions", label: "Transactions", icon: ArrowUpDown },
+  { href: "/dashboard/accounts", label: "Accounts", icon: Wallet },
+  { href: "/dashboard/categories", label: "Categories", icon: Tags },
+  { href: "/dashboard/settings", label: "Settings", icon: Settings },
 ]
 
 export function AppSidebar() {
