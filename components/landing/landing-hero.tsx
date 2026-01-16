@@ -1,3 +1,4 @@
+import Link from "next/link"
 
 const LandingHero = () => {
   return (
@@ -32,12 +33,12 @@ const LandingHero = () => {
         </p>
 
         <div className="mt-12 flex flex-row items-center gap-4 ">
-          <a
-            href="#"
+          <Link
+            href="/sign-up"
             className="inline-flex h-12 items-center justify-center rounded-xl bg-white px-7 text-sm font-medium text-black shadow-[0_0_0_1px_rgba(255,255,255,0.12),0_18px_40px_rgba(0,0,0,0.55)] transition hover:bg-white/90"
           >
             Get started
-          </a>
+          </Link>
           <a
             href="#"
             className="inline-flex h-12 items-center justify-center rounded-xl border border-white/10 bg-white/3 px-7 text-sm font-medium text-white/85 backdrop-blur-md transition hover:bg-white/6 hover:text-white shadow-[inset_0_0_0_1px_rgba(255,255,255,0.03)]"
