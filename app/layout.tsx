@@ -24,9 +24,7 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
-        <body
-          className={`${outfit.variable} antialiased`}
-        >
+        <body className={`${outfit.variable} antialiased`}>
           <QueryProvider>
             <SheetProvider />
             <Toaster />

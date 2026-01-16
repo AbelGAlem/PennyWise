@@ -46,6 +46,19 @@
   --radius-4xl: calc(var(--radius) + 16px);
 }
 
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-padding-top: 5rem;
+}
+
+[id] {
+  scroll-margin-top: 5rem;
+}
+
 :root {
   --radius: 0.625rem;
   --background: oklch(1 0 0);

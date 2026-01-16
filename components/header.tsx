@@ -9,7 +9,7 @@ import { usePathname } from "next/navigation";
 export const Header = () => {
   const pathname = usePathname();
   return (
-    <header className="bg-linear-to-b from-blue-700 to-blue-500 rounded-2xl">
+    <header className="bg-linear-to-br from-blue-700 to-[#00FFB2] rounded-2xl">
       <div className="max-w-screen-2xl mx-auto">
         <div className="w-full flex items-center justify-between mb-4 border-b-[1.3px] border-neutral-400">
           <div className="flex items-center px-4 py-2 lg:px-14">
