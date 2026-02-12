@@ -93,8 +93,8 @@ export const TransactionForm = ({
             <FormItem>
               <FormControl>
                 <DatePicker
-                  value={field.value}
-                  onChange={field.onChange}
+                  value={field.value as Date | undefined}
+                  onChange={(date) => field.onChange(date)}
                   disabled={disabled}
                 />
               </FormControl>
