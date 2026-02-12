@@ -1,4 +1,4 @@
 {
   "installCommand": "bun install",
-  "buildCommand": "bun run db:migrate && next build"
+  "buildCommand": "next build"
 }
