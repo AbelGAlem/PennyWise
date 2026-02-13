@@ -1,3 +1,4 @@
+import { Suspense } from "react"
 import { Header } from "@/components/header"
 import { AppSidebar } from "@/components/app-sidebar"
 import { SidebarProvider, SidebarInset } from "@/components/ui/sidebar"
@@ -13,7 +14,9 @@ const DashboardLayout = ({children}: Props) => {
       <SidebarInset>
         <Header />
         <div className="px-3 lg:px-14">
-          {children}
+          <Suspense fallback={null}>
+            {children}
+          </Suspense>
         </div>
       </SidebarInset>
     </SidebarProvider>
