@@ -5,6 +5,7 @@ export default function DashboardPreview() {
     <section className="hidden md:block max-w-5xl mx-auto pb-20 px-4">
       <div className="relative">
         <div className="relative bg-gray-900 rounded-2xl p-1 md:p-4 shadow-2xl">
+          {/* Todo: Make this a video preview instead*/}
           <Image
             src="/dashboard.png"
             alt="PennyWise Dashboard Preview"
