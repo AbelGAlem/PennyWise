@@ -9,7 +9,7 @@ const LandingNavBar = () => {
           <div className="flex items-center justify-between px-6 py-4">
             <div className="flex gap-3">
               <Image  src="/logo.svg" alt="Logo" height={26} width={26}/>
-              <div className="text-2xl font-semibold tracking-wider">
+              <div className="text-lg sm:text-2xl  font-semibold tracking-wider">
                 PennyWise
               </div>
             </div>

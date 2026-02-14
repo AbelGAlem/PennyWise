@@ -2,6 +2,7 @@ import { Suspense } from "react"
 import { Header } from "@/components/header"
 import { AppSidebar } from "@/components/app-sidebar"
 import { SidebarProvider, SidebarInset } from "@/components/ui/sidebar"
+import { SheetProvider } from "@/provider/sheet-provider"
 
 type Props = {
   children: React.ReactNode
@@ -19,6 +20,7 @@ const DashboardLayout = ({children}: Props) => {
           </Suspense>
         </div>
       </SidebarInset>
+      <SheetProvider />
     </SidebarProvider>
   )
 }

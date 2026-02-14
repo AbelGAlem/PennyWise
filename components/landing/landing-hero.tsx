@@ -21,7 +21,7 @@ const LandingHero = () => {
           <span>AI Insights Incoming...</span>
         </div>
 
-        <h1 className="mt-10 text-balance text-5xl font-medium leading-[1.05] tracking-tight sm:text-6xl md:text-7xl">
+        <h1 className="mt-10 text-balance text-4xl mx-4 font-medium leading-[1.05] tracking-tight sm:text-6xl md:text-7xl">
           Take control of your money.
           <br className="hidden sm:block" />
           <span className="text-emerald-300 italic">Effortlessly.</span>
